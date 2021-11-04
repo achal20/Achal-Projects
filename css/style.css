@@ -461,7 +461,7 @@ pre {
   overflow-y: scroll; }
   
   .header-background{
-    padding: 1%;
+
   }
 
 
@@ -8081,6 +8081,17 @@ html {
     .nav-button:hover {
     background-color: #ffffff78;
     text-decoration: underline;
+    }
+
+    .nav-button-active{
+      background-color: #ffffff38;
+      margin: 5px;
+    padding: 5px;
+    line-height: 2em;
+    border: solid 2px #ffffff;
+    border-radius: 25px;
+    text-align: center;
+    width: 200px;
     }
 
 
