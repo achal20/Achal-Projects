@@ -7286,6 +7286,9 @@ a.text-dark:hover, a.text-dark:focus {
   .project-title-description{
     margin-left: 3%;
     margin-right: 3%;
+    text-align: center;
+    font-size: 125%;
+    font-weight: 600;
   }
   @media (max-width: 767px) {
     .Team-Project-section-title {
