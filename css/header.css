@@ -1,0 +1,638 @@
+#hero {
+    /*width: 100%; */
+    /* position: absolute; */
+    min-height: 440px;
+    background: url(img/1.png) top center;
+    background-size: 100% 100%;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+}
+
+#hero .container {
+/*position: relative; */
+    /* background: #ffffffba; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 0;
+    margin-top: -171px;
+}
+
+#hero h1 {
+margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 4px 2px 5px black;
+}
+#hero h1 span {
+color: #fff;
+}
+
+#hero h2 {
+color: #000000;
+    /*margin: -64px 0 12px 0;*/
+      margin: -10px 0 12px 0;
+        padding: 0px 18px 0px 0px;
+    font-size: 18px;
+    width: 97%;
+    /* text-shadow: 0px 0px black; */
+    line-height: 1.5;
+    font-style: italic;
+}
+
+
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+#why-us .cont1 {
+   margin-top: -120px;
+   margin-bottom: 4%;
+}
+.why-us .content {
+/*padding: 65px 15px;
+    background: #cce2e6;
+    border-radius: 4px;
+    color: #fff;*/
+
+    padding: 13px 15px 9px 15px;
+    background: #fff;
+    border-radius: 4px;
+    color: #fff;
+    margin: 0px 0;
+}
+
+.why-us .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.why-us .content p {
+  margin-bottom: 30px;
+}
+
+.why-us .content .more-btn {
+display: inline-block;
+    background: #ac004f;
+    padding: 15px 15px;
+    color: #f7f7f7;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: all ease-in-out 0.4s;
+    border: 1px solid #dcdcdc;
+    max-height: 100px;
+    width: 100%;
+    font-size:14px;
+}
+
+.why-us .content .more-btn i {
+  font-size: 14px;
+}
+
+.why-us .content .more-btn:hover {
+  color: #000;
+  background: #f9cb40;
+  text-decoration: none;
+}
+
+.why-us .icon-boxes .icon-box {
+    text-align: center;
+    /*border-radius: 10px;*/
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 26%);
+    padding: 5px 5px 12px 5px;
+    width: 80%;
+        border-top-left-radius: 38px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 38px;
+}
+
+.why-us .icon-boxes .icon-box .roundimg {
+  width:100%;
+  border-top-left-radius: 38px;
+}
+
+.why-us .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #1977cc;
+  margin-bottom: 30px;
+}
+
+.why-us .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0px 0;
+  text-align: left;
+}
+
+.why-us .icon-boxes .icon-box p {
+font-size: 13px;
+    color: #0c0c0c;
+    text-align: left;
+    /* margin: 0 10px; */
+    padding: 0 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.overimg {
+position: relative;
+    text-align: center;
+    color: white;
+    /*box-shadow: 0px 1px 3px 0px #c5c5c5;*/
+    margin-bottom: 0px;
+}
+.overimg h4{
+   /* position: absolute;*/
+    bottom: -10px;
+    /* left: 16px; */
+    font-size: 18px !important;
+    color: #000;
+    background: #ffffffe3;
+    padding: 7px 7px;
+    line-height: 1.5;
+  }
+  .overimg h4 img{
+    width:auto;
+    max-height:103px;
+    float: left;
+  }
+  
+  .why-us .icon-boxes .icon-box ul{
+     
+    color: #e87f00;
+    padding-left: 30px;
+    margin: 0 0px;
+    list-style: none;
+  }
+
+
+  .why-us .icon-boxes .icon-box ul li{
+    text-align: left;
+    /* padding: 0 10px; */    
+    border-bottom: 1px solid #ddd;
+  }
+  ul li::before {
+  content: "▶";
+  /*border-color: transparent #ac004f;
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;*/
+  display: block;
+  height: 0;
+  width: 0;
+  font-size: 11px;
+  left: -1.5em;
+  top: 0.4em;
+  position: relative;
+}
+
+
+
+.why-us .icon-boxes .icon-box ul li:last-child{
+border-bottom: none !important;
+}
+  .why-us .icon-boxes .icon-box ul li:hover{
+   background: #ececec;
+  }
+
+  .why-us .icon-boxes .icon-box ul li a{
+    text-align: left;
+    padding: 4px 0px;
+    font-size: 13.5px;
+    color: #e87f00;
+    font-weight: bold;
+  }
+  .why-us .icon-boxes .icon-box ul li a:hover{
+    text-decoration: none;
+    color: #ac004f;
+  }
+  .text-center {
+    text-align: center!important;
+    height: 68px;
+}
+
+.console-container{
+    background: linear-gradient(-45deg,#ac004f 0%,#e87f00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 400px) {
+  #hero .container {
+    /* position: relative; */
+    /* background: #ffffffba; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 10px;
+    margin-top: -123px;
+}
+
+
+#hero h2 {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 30px;
+    /* width: 100%; */
+    padding: 10px 32px 10px 10px;
+    background: #dddddda3;
+}
+}
+
+@media screen and (min-width: 400px) and (max-width: 480px) {
+/* CSS for 520px layout goes here */
+body{
+
+}
+#hero {
+      background: url(img/phoneview.png) top center;
+    background-repeat: no-repeat;
+  }
+  #hero .container {
+    /* position: relative; */
+    /* background: #ffffffba; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 15px;
+    margin-top: -180px;
+}
+
+#hero h2 {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 30px;
+    /* width: 100%; */
+padding: 10px 32px 10px 10px;
+    background:#dddddda3;
+}
+
+
+
+#hero h1  {
+    color: #e96220;
+     text-shadow: none;
+}
+#hero h1 span {
+    color: #e96220;
+}
+.why-us .content .more-btn {
+  margin-top: 6px;
+  }
+
+
+  .overimg {
+    margin-bottom: 0px;
+}
+.overimg h4 {
+    bottom: -9px;
+    /* left: 16px; */
+    font-size: 13px !important;
+    margin: 2px 0;
+    padding: 1px 7px;
+     width: 100%;
+     line-height: 2;
+}
+.overimg h4 img {
+     /*height: 30px;*/
+}
+.why-us .icon-boxes .icon-box {
+     padding: 5px;
+    }
+.why-us .icon-boxes .icon-box ul {
+
+    }
+.why-us .icon-boxes .icon-box ul li a {
+
+    }
+    #why-us .cont1 {
+    margin-top: -230px;
+}
+.why-us .icon-boxes .icon-box .roundimg {
+
+        width: 100%;
+}
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 560px) {
+
+#hero {
+   /* background: none;*/
+      background: url(img/phoneview.png) top center;
+    background-repeat: no-repeat;
+  }
+  #hero .container {
+    /* position: relative; */
+    /* background: #ffffffba; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 15px;
+    margin-top: -190px;
+}
+
+#hero h2 {
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 30px;
+    /* width: 100%; */
+padding:10px 32px 10px 10px;
+background: #dddddda3;
+     
+}
+#hero h1  {
+    color: #e96220;
+     text-shadow: none;
+}
+#hero h1 span {
+    color: #e96220;
+}
+.why-us .content .more-btn {
+  margin-top: 6px;
+  }
+
+  .why-us .icon-boxes .icon-box {
+     padding: 5px;
+    }
+.why-us .icon-boxes .icon-box ul {
+
+    }
+.why-us .icon-boxes .icon-box ul li a {
+
+    }
+    #why-us .cont1 {
+    margin-top: -235px;
+}
+.why-us .icon-boxes .icon-box .roundimg {
+
+        width: 100%;
+}
+}
+
+
+@media screen and (min-width: 560px) and (max-width: 768px) {
+/* CSS for 520px layout goes here */
+body{
+
+}
+#hero {
+        background: url(img/phoneview.png) top center;
+    background-repeat: no-repeat;
+  }
+  #hero .container {
+    /* position: relative; */
+    /* background: #ffffffba; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 15px;
+    margin-top: -260px;
+}
+
+
+#hero h2 {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 30px;
+    /* width: 100%; */
+    padding: 30px 44px 10px 10px;
+  
+}
+#hero h1  {
+    color: #e96220;
+     text-shadow: none;
+}
+#hero h1 span {
+    color: #e96220;
+}
+
+.why-us .icon-boxes .icon-box {
+     padding: 5px;
+    }
+.why-us .icon-boxes .icon-box ul {
+     margin: 0 20px;
+    margin: 0 0px;
+    }
+.why-us .icon-boxes .icon-box ul li a {
+font-size: 14px;
+    padding: 6px 4px;
+    }
+    #why-us .cont1 {
+    margin-top:-297px;
+}
+.why-us .icon-boxes .icon-box .roundimg {
+
+        width: 100%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 920px) {
+
+/* CSS for 400px layout goes here */
+body{
+
+}
+/*#hero h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 42px;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    color: #200e80;
+    text-shadow: 4px 2px 5px #726464;
+}
+#hero h1 span {
+    color: #0d0c68;
+}*/
+#hero .container {
+    /* position: relative; */
+    /* background: #ffffffba; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 0;
+    margin-top: -230px;
+}
+
+  #hero{
+    background: none;
+    background: url(img/phoneview.png) top center;
+    background-repeat: no-repeat;
+}
+#hero h1 {
+    font-size: 16px;
+    line-height: 30px;
+}
+#hero h2 {
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 30px;
+    /* width: 100%; */
+    padding: 10px 10px;
+   /* background: #d6ded8;*/
+}
+#hero h1  {
+    color: #fff;
+    text-shadow: none;
+}
+#hero h1 span {
+    color: #fff;
+}
+
+.why-us .icon-boxes .icon-box {
+     padding: 5px;
+    }
+.why-us .icon-boxes .icon-box ul {
+     margin: 0 20px;
+    padding-left: 5px;
+    }
+    
+
+
+    #why-us .cont1 {
+    margin-top: -280px;
+}
+.why-us .icon-boxes .icon-box .roundimg {
+     width: 100%;
+}
+}
+
+@media screen and (min-width: 920px) and (max-width: 1024px) {
+
+/* CSS for 640px layout goes here */
+
+#hero .container {
+    /* position: relative; */
+    /* background: #ffffffba; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 0;
+    margin-top: -195px;
+}
+#hero h1 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#hero h2 {
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 30px;
+
+    width:89%;
+    padding: 0px;
+}
+
+.why-us .icon-boxes .icon-box ul {
+     margin: 10px 0px 20px 20px;
+     padding-left: 5px;
+    }
+.why-us .icon-boxes .icon-box ul li a {
+
+    }
+    #why-us .cont1 {
+    margin-top: -218px;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+
+#hero {
+    /* width: 100%; */
+    /* position: absolute; */
+    min-height: 440px;
+    }
+#hero .container {
+    /* position: relative; */
+    /* background: #ffffffba; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 0;
+    margin-top: -130px;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1400px) {
+
+#hero {
+    /* width: 100%; */
+    /* position: absolute; */
+    min-height: 440px;
+    }
+#hero .container {
+    /* position: relative; */
+    /* background: #ffffffba; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 0;
+    margin-top: -130px;
+}
+}
+
+@media screen and (min-width: 1480px) {
+/* CSS for 1366px layout goes here */
+body{
+  
+}
+#hero {
+    /* width: 100%; */
+    /* position: absolute; */
+    min-height: 440px;
+    }
+#hero .container {
+    /* position: relative; */
+    /* background: #ffffffba; */
+    text-align: justify;
+    margin: 0 auto;
+    padding: 0px 0;
+    margin-top: -174px;
+}
+#hero h2{
+  font-size:19px;
+}
+}
+
+
+.container,
+.container-fluid {
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.container,
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 98%
+    }
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 97%
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1170px
+    }
+}
+
+@media(min-width:1360px) {
+    .container {
+        width: 1280px
+    }
+}
+
+
+
+
+
+
